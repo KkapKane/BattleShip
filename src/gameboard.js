@@ -29,5 +29,9 @@ getIndex(coord){
     return (this.Board.indexOf(coord))
    
 }
+getCoord(index){
+    return this.Board[index]
+}
+
 }
 

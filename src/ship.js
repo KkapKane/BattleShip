@@ -1,10 +1,11 @@
 export class Ship {
-    constructor(length)
+    constructor(...coordinate)
     {
-        this.length = length;
+        this.length = 3;
         this.HP = this.length;
         this.dmgTaken = 0;
         this.alive = true;
+        this.coordinate = coordinate;
     }
     hit(){
         
