@@ -32,6 +32,17 @@ getIndex(coord){
 getCoord(index){
     return this.Board[index]
 }
+recieveAttack(coord1){
+ this.coord1 = coord1
+
+ if(this.getCoord(coord1) == 'p1'){
+    console.log('true')
+    return true;
+ }
+ 
+return false;
+
+}
 
 }
 
